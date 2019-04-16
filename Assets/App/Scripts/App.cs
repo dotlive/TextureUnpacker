@@ -34,8 +34,8 @@ namespace NRatel.TextureUnpacker
 
             //编辑器下测试用
 #if UNITY_EDITOR
-            plistFilePath = @"C:\Users\Administrator\Desktop\plist&png\test.plist";
-            pngFilePath = @"C:\Users\Administrator\Desktop\plist&png\test.png";
+            plistFilePath = "Assets/Test/elem.plist";
+            pngFilePath = "Assets/Test/elem.png";
             main.StartCoroutine(LoadFiles());
 #endif
 
@@ -142,7 +142,6 @@ namespace NRatel.TextureUnpacker
 
         private IEnumerator Unpack()
         {
-
             int total = plist.frames.Count;
             int count = 0;
             foreach (var frame in plist.frames)

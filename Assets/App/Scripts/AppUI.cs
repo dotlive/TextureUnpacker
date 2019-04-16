@@ -57,7 +57,8 @@ namespace NRatel.TextureUnpacker
             {
                 rt.localScale = new Vector2(minRate, minRate);
             }
-            else {
+            else
+            {
                 rt.localScale = Vector2.one;
             }
         }

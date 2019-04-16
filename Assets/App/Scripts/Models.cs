@@ -8,6 +8,7 @@ namespace NRatel.TextureUnpacker
     {
         public int width;
         public int height;
+
         public SizeInt(Vector2Int v2i)
         {
             this.width = v2i.x;
